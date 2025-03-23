@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TCS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 text-white p-4 fixed w-full top-0 shadow-lg z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">TCS</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="./../home/home.html" class="hover:text-yellow-400">Home</a>
+                <a href="./about.html" class="hover:text-yellow-400">About Us</a>
+                <a href="./../contact/contact.html" class="hover:text-yellow-400">Contact Us</a>
+                <a href="./../tracking/tracking.html" class="hover:text-yellow-400">Track Your Order</a>
+                <a href="./../../index/index.html" class="hover:text-yellow-400">Main Page</a>
+            </div>
+            <button class="md:hidden text-white focus:outline-none" onclick="toggleMenu()">
+                ☰
+            </button>
+        </div>
+        <div id="mobileMenu" class="hidden md:hidden bg-gray-900 text-center py-2">
+            <a href="./../home/home.html" class="block py-2 hover:text-yellow-400">Home</a>
+            <a href="./about.html" class="block py-2 hover:text-yellow-400">About Us</a>
+            <a href="./../contact/contact.html" class="block py-2 hover:text-yellow-400">Contact Us</a>
+            <a href="./../tracking/tracking.html" class="block py-2 hover:text-yellow-400">Track Your Order</a>
+            <a href="./../../index/index.html" class="block py-2 hover:text-yellow-400">Main Page</a>
+        </div>
+    </nav>
+
+   
+</script>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-16 mt-16">
+        <h1 class="text-4xl font-bold">About Tranzum Courier Services (TCS)</h1>
+        <p class="mt-4 text-lg">Reliable & Fast Courier Services, Serving Millions.</p>
+    </section>
+    
+    <!-- Company Overview -->
+    <section class="container mx-auto my-10 p-6 bg-white shadow-md rounded-lg">
+        <h2 class="text-2xl font-semibold text-center">Who We Are</h2>
+        <p class="mt-4 text-gray-700 text-center">TCS is a leading courier service provider dedicated to fast and secure deliveries across the globe.</p>
+    </section>
+    
+    <!-- Stats Counter -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center my-10">
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-3xl font-bold text-blue-600">10M+</h3>
+            <p class="text-gray-700">Deliveries Made</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-3xl font-bold text-blue-600">500+</h3>
+            <p class="text-gray-700">Cities Covered</p>
+        </div>
+        <div class="bg-white p-6 shadow-lg rounded-lg">
+            <h3 class="text-3xl font-bold text-blue-600">99%</h3>
+            <p class="text-gray-700">Customer Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-200 py-10 text-center">
+        <h2 class="text-2xl font-semibold">What Our Clients Say</h2>
+        <p class="mt-4 italic">"TCS is the most reliable courier service we've used! Fast & secure!"</p>
+        <p class="mt-2 font-bold">- Sarah Wilson</p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center py-10 bg-blue-600 text-white">
+        <h2 class="text-2xl font-semibold">Ready to Ship with TCS?</h2>
+        <button class="mt-4 px-6 py-3 bg-yellow-400 text-blue-900 font-bold rounded">Get Started</button>
+    </section>
+    
+    <!-- Partners Section -->
+    <section class="container mx-auto text-center my-10">
+        <h2 class="text-2xl font-semibold">Our Trusted Partners</h2>
+        <div class="flex justify-center mt-6 space-x-4">
+            <img src="../../assets/image.png" class="h-12">
+            <img src="../../assets/image.png" class="h-12">
+        </div>
+    </section>
+    <!-- Mission & Vision Section -->
+<section class="container mx-auto my-10 p-6 bg-white shadow-md rounded-lg text-center">
+    <h2 class="text-2xl font-semibold">Our Mission & Vision</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div class="p-4 border-l-4 border-blue-600">
+            <h3 class="text-xl font-bold text-blue-600">Our Mission</h3>
+            <p class="mt-2 text-gray-700">To provide fast, reliable, and affordable courier services, ensuring customer satisfaction through innovation and efficiency.</p>
+        </div>
+        <div class="p-4 border-l-4 border-yellow-500">
+            <h3 class="text-xl font-bold text-yellow-500">Our Vision</h3>
+            <p class="mt-2 text-gray-700">To become the global leader in logistics and courier services by embracing cutting-edge technology and sustainable practices.</p>
+        </div>
+    </div>
+</section>
+<!-- Meet Our Team -->
+<section class="bg-gray-100 py-10">
+    <div class="container mx-auto text-center">
+        <h2 class="text-2xl font-semibold">Meet Our Team</h2>
+        <p class="mt-4 text-gray-700">Our experienced team ensures seamless delivery and exceptional customer service.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-6 shadow-md rounded-lg">
+                <img src="../../assets/75e7ceed-f664-49e0-bb72-5d34fe61e4ef.jpg" alt="CEO" class="w-24 h-24 mx-auto rounded-full">
+                <h3 class="mt-4 text-xl font-bold">John Doe</h3>
+                <p class="text-gray-600">CEO & Founder</p>
+            </div>
+            <div class="bg-white p-6 shadow-md rounded-lg">
+                <img src="../../assets/75e7ceed-f664-49e0-bb72-5d34fe61e4ef.jpg" alt="Operations Manager" class="w-24 h-24 mx-auto rounded-full">
+                <h3 class="mt-4 text-xl font-bold">Jane Smith</h3>
+                <p class="text-gray-600">Operations Manager</p>
+            </div>
+            <div class="bg-white p-6 shadow-md rounded-lg">
+                <img src="../../assets/75e7ceed-f664-49e0-bb72-5d34fe61e4ef.jpg" alt="Customer Support Head" class="w-24 h-24 mx-auto rounded-full">
+                <h3 class="mt-4 text-xl font-bold">Michael Brown</h3>
+                <p class="text-gray-600">Head of Customer Support</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p> 2025 TCS | Contact: info@tcs.com | +92 123 456789</p>
+    </footer>
+</body>
+</html>

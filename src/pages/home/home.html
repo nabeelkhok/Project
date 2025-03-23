@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar -->
+    <nav class="p-4 bg-gray-800 text-white text-center">
+        <div class="text-xl font-bold">TCS</div>
+        <div class="flex gap-6">
+        <a href="./home.html" class="mx-4 hover:text-yellow-400">Home</a>
+        <a href="./../about/about.html" class="mx-4 hover:text-yellow-400">About Us</a>
+        <a href="./../contact/contact.html" class="mx-4 hover:text-yellow-400">Contact Us</a>
+        <a href="./../tracking/tracking.html" class="mx-4 hover:text-yellow-400">Track Your Order</a>
+        <a href="./../../index/index.html" class="mx-4 hover:text-yellow-400">Main Page</a>
+    </nav>
+
+    <!-- Slideshow Container -->
+    <div class="relative w-full max-w-3xl mx-auto mt-6">
+
+        <!-- Slide 1 -->
+        <div class="mySlides fade active">
+            <img src="../../assets/close-up-courier-holding-cardboard-boxes-with-parcels-inside-for-delivery-ai-generated-photo.jpg" class="w-full rounded-lg shadow-lg">
+            <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-center">
+                Fast and Reliable Delivery
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <img src="../../assets/close-up-courier-holding-cardboard-boxes-with-parcels-inside-for-delivery-ai-generated-photo.jpg" class="w-full rounded-lg shadow-lg">
+            <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-center">
+                Secure and Safe Handling
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <img src="../../assets/png-clipart-package-delivery-courier-delivery-man-mail-delivery-man-tshirt-food.png" class="w-full rounded-lg shadow-lg">
+            <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white p-2 text-center">
+                Quick and Efficient Service
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="absolute top-1/2 left-4 bg-gray-800 text-white p-3 rounded-full opacity-75 hover:opacity-100" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="absolute top-1/2 right-4 bg-gray-800 text-white p-3 rounded-full opacity-75 hover:opacity-100" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+
+    <!-- Dots -->
+    <div class="flex justify-center mt-4">
+        <span class="dot mx-2 w-4 h-4 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(1)"></span>
+        <span class="dot mx-2 w-4 h-4 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(2)"></span>
+        <span class="dot mx-2 w-4 h-4 bg-gray-400 rounded-full cursor-pointer" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white p-4 text-center mt-6">
+        <p>&copy; 2025 My Website. All rights reserved By Nabeel.</p>
+    </footer>
+
+    
+
+</body>
+</html>
